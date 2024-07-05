@@ -1,0 +1,164 @@
+<head>
+
+    <meta chartset="UTF-8"/>
+    <meta name="description" content="Swift SOS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harbor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Karla:ital,wght@0,200..800;1,200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+</head>
+<body>
+      <nav class="container" id="navbar">
+        <div class="container" id="logo">
+            <h1 style="font-family: 'Aclonica';">Harbor</h1>
+        </div>
+        <div class="container" id="navlinks">
+            <ul class="nav-items">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#services">Services</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <button class="CTA" id="nav-btn">Work with us</button>
+        </div>
+      </nav>
+      <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-text-1">
+                    <h1 style="font-weight: 600;"> Anchoring your business, Navigating to success</h1>
+                    <h4 style="font-family: 'DM Sans'; font-weight: 400;"> Expert Consulting for Sustainable Growth and Innovation</h4>
+                    <button class="CTA" id="hero-btn">Get started today</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./assets/hero-img.png" alt="illustration">
+            </div>
+        </div>
+      </section>
+      <section id="aboutus">
+        <div class="aboutus-section">
+            <div class="aboutus-text" style="gap: 30px;">
+                <h1>Who we are</h1>
+                <h4 style="font-weight: 400;">At Harbor we are dedicated to providing top-notch consulting services tailored to meet the unique needs of your business. With years of industry experience and a team of experts, we help organizations navigate complex challenges and achieve their goals.</h4>
+                <button class="CTA" id="about-btn">More about us</button>
+            </div>
+        </div>
+        <div class="about-img">
+            <img src="./assets/about us img.png" alt="illustration">
+        </div>
+      </section>
+      <section class="services">
+        <div class="services-section">
+            <h1>What we offer</h1>
+            <div class="services-cards">
+                <div class="card" style="width: 386px; height: 339px;">
+                    
+                    <img src="./assets/hand holding clipboard.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Business Strategies</h3>
+                      <p class="card-text">Helping you set goals, create actionable plans and implement effective strategies to drive your business forward.</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 386px; height: 339px;">
+                    <img src="./assets/light bulb.png" class="card-img-top" alt="..." style="width:71px; height:96px;">
+                    <div class="card-body">
+                      <h3>Financial advisory</h3>
+                      <p class="card-text">Providing insights and guidance to ensure your business is financially healthy and poised for growth.</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 386px; height: 339px;">
+                    <img src="./assets/screen.png" class="card-img-top" alt="..." style="height:108px; width:115px;">
+                    <div class="card-body">
+                      <h3>Digital innovation</h3>
+                      <p class="card-text">Helping you integrate cutting-edge technologies to streamline processes and enhance customer experiences.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </section>
+      <div class="seperator">
+        <img src="./assets/seperator.png">
+      </div>
+      <section class="testimonials">
+        <div class="test-container">
+            <div class="test-img">
+                <h1> What our clients are saying</h1>
+                <img src="./assets/man talking.png" alt="illustration">
+
+            </div>
+            <div class="test-text">
+                <div class="card" style="width: 32rem;">
+                    <div class="card-body">
+                      <h3 class="card-title">Carina</h3>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">CTO, XYZ LTD</h6>
+                      <p class="card-text">"Harbor guided us through a successful digital transformation, allowing us to better serve our customers and stay ahead of the competition."</p>
+                    </div>
+                  </div>
+                <div class="card" style="width: 32rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Sarah Mitchell</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">COO, DEF Ent</h6>
+                      <p class="card-text">"Harbor Consulting transformed our business operations, leading to a 30% increase in efficiency. Their strategic insights and hands-on approach were exactly what we needed to navigate through challenging times and emerge stronger."</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </section>
+      <section class="pre-footer">
+        <div class="pre-footer-text">
+            <h1> Ready to elevate your business?</h1>
+            <p>Contact us today to schedule a consultation and find out how we can help your business succeed.</p>
+            <button class="CTA" id="pre-footer-btn">Get started today</button>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-grids" id="reachout">
+            <h3>Reach Us</h3>
+            <div class="reachout-text">
+                <p>123 Consulting Lane, Business City, Country</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: contact@harbor.com</p>
+            </div>
+        </div>
+        <div class="footer-grids" id="Quicklinks">
+            <div class="quicklinks-text">
+                <h3>Quicklinks</h3>
+            </div>
+            <p>Privacy & Policy</p>
+            <p>Terms of service</p>
+            <p>Help</p>
+        </div>
+        <div class="footer-grids" id="socials">
+            <h3>Connect with us</h3>
+            <div class="socials-links">
+                <img src="./assets/facebook-logo.png">
+                <img src="./assets/linkedin-logo.png">
+                <img src="./assets/instagram-logo.png">
+            </div>
+        </div>
+        <div class="footer-grids" id="footer-logo">
+            <h4>Anchoring your Business , Navigating to Success</h4>
+            <img src="./assets/Harbor footer.png">
+        </div>
+      </footer>
+</body>
